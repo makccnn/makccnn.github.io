@@ -1,0 +1,1 @@
+<?php// Конттроллер страницы чтения.//class C_View extends C_Base{	// Конструктор.	function __construct()	{			}		// Виртуальный обработчик запроса.	protected function OnInput()	{		parent::OnInput();	}		//	// Виртуальный генератор HTML.	//		protected function OnOutput()	{		$page = $this->Template('theme/v_main.php');						echo $page;		}	}

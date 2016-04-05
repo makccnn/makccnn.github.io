@@ -1,0 +1,1 @@
+<?phpfunction __autoload ($classname) {	include_once ("inc/$classname.php");}$controller = new C_Log();$controller->Request();

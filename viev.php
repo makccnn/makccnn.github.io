@@ -1,0 +1,1 @@
+<?phprequire_once('model/startup.php');$controller = new C_View();$controller->Request();function __autoload ($classname) {	include_once ("inc/$classname.php");}

@@ -1,0 +1,1 @@
+<?php// Базовый контроллер сайта.abstract class C_Base extends Controller{	// Конструктор.	function __construct()	{			}		// Виртуальный обработчик запроса.	protected function OnInput()	{			}	// Виртуальный генератор HTML.	protected function OnOutput()	{			$page = $this->Template('');						echo $page;		}	}

@@ -1,0 +1,1 @@
+<?phprequire_once('model/startup.php');include_once('model/count.php');include_once('theme/v_index.php');
